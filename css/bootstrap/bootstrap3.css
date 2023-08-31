@@ -1,0 +1,27 @@
+aside {
+  background: rgb(119, 147, 249);
+  background: radial-gradient(circle, rgb(119, 147, 249) 15%, rgb(167, 128, 250) 70%, rgb(210, 128, 250) 100%);
+  width: 16%;
+}
+
+#container {
+  background-color: #f1f2fb;
+  width: 84%;
+}
+
+#balance {
+  background: rgb(119, 147, 249);
+  background: linear-gradient(90deg, rgb(119, 147, 249) 17%, rgb(167, 128, 250) 70%, rgb(210, 128, 250) 100%);
+}
+
+#data-left {
+  width: 60%;
+}
+
+#data-right {
+  width: 40%;
+}
+
+#topinfo {
+  height: 5rem;
+}/*# sourceMappingURL=bootstrap3.css.map */

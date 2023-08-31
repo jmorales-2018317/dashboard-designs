@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside {
+  background: rgb(119, 147, 249);
+  background: radial-gradient(circle, rgb(119, 147, 249) 15%, rgb(167, 128, 250) 70%, rgb(210, 128, 250) 100%);
+  position: fixed;
+  height: 100%;
+  width: 220px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  padding-left: 220px;
+  background-color: #f1f2fb;
+  gap: 30px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.stadistics {
+  width: 60%;
+  padding-left: 30px;
+}
+.stadistics .title {
+  height: 12%;
+}
+.stadistics .title h3 {
+  color: rgb(64, 64, 64);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.stadistics .title p {
+  color: rgb(44, 44, 44);
+  font-weight: normal;
+  margin: 0;
+}
+.stadistics .balance {
+  background: rgb(119, 147, 249);
+  background: linear-gradient(90deg, rgb(119, 147, 249) 17%, rgb(167, 128, 250) 70%, rgb(210, 128, 250) 100%);
+  height: 20%;
+  border-radius: 15px;
+}
+.stadistics .data {
+  margin-top: 20px;
+  height: 60%;
+  display: flex;
+  gap: 20px;
+}
+.stadistics .data .stadistics-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stadistics .data .stadistics-left .analytics {
+  height: 60%;
+}
+.stadistics .data .stadistics-left .withdraw {
+  height: 40%;
+}
+.stadistics .data .stadistics-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stadistics .data .stadistics-right .graphics {
+  height: 40%;
+}
+.stadistics .data .stadistics-right .stats {
+  height: 60%;
+}
+
+.profile {
+  width: 40%;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.profile .options {
+  height: 15%;
+}
+.profile .my-profile {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=dashboard3.css.map */
