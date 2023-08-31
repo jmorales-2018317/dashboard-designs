@@ -1,0 +1,36 @@
+nav {
+  height: 60px;
+}
+
+#container {
+  padding-top: 60px;
+  background-color: #d6d8de;
+}
+
+#welcome {
+  height: 50px;
+}
+
+#values {
+  height: 80px;
+}
+
+#sales {
+  background-color: #06ca85;
+}
+
+#purchases {
+  background-color: #12aff2;
+}
+
+#orders {
+  background-color: #f6466d;
+}
+
+#growth {
+  background-color: #f99e0e;
+}
+
+#stadistics {
+  height: 20rem;
+}/*# sourceMappingURL=bootstrap2.css.map */
